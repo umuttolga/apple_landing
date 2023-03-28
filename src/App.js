@@ -1,6 +1,5 @@
-import { useContext } from "react";
 import LandingPage from "./components/LandingPage";
-import MyProvider, { MyContext } from "./store/MyProvider";
+import MyProvider from "./store/MyProvider";
 
 function App() {
   return (

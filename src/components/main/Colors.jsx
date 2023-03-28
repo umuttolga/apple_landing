@@ -2,9 +2,7 @@ import React, { useContext } from 'react'
 import { MyContext } from '../../store/MyProvider';
 
 const Colors = () => {
-    const {handleDarkChange,
-        handleRedChange,
-        handleRoseChange, color, handleColorChange} = useContext(MyContext);
+    const {color, handleColorChange} = useContext(MyContext);
     const colors = ["bg-[#C86070]", "bg-[#5C5555]", "bg-[#D39090]", "bg-[#384838]"]
     const newColors = colors.filter((item) => item !== color)
 
